@@ -7,10 +7,10 @@ export const Menu = () => {
         <nav className='menu'>
             <ul>
                 <li>
-                    <Link to='/'>Home</Link>
+                    <Link to='/' >Home</Link>
                 </li>
                 <li>
-                    <Link to='/about'>About</Link>
+                    <Link to='/about' state={'this is state da home'}>About</Link>
                 </li>
                 <li>
                     <Link to='/posts'>Posts</Link>
