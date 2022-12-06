@@ -26,7 +26,7 @@ export const Redirect = () => {
   },[time]);
     return (
         <div>
-            <h1>Get out of here in: {time}</h1>
+            <h1>sair da pagina em: {time}</h1>
         </div>
     )
 }
